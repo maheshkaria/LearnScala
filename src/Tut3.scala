@@ -12,6 +12,7 @@ object Tut3 {
 
     print(newName)
 
+    // scala takes last expression and returns it so need to have return statement exclusively
 
   }
 }
