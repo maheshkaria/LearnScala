@@ -1,4 +1,4 @@
-object Main {
+object Tut1 {
   def main(args: Array[String]): Unit = {
     // val is final variable and its value can not be re-assigned
     val a = 1
