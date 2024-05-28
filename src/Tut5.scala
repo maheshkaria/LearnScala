@@ -9,11 +9,8 @@ object Tut5 {
       x += 1
     }
 
-
     x = 0
-    do {
-      println(s"runnn")
-    } while (x < -1)
+    do { println(s"runnn") } while (x < -1)
 
 
   }
