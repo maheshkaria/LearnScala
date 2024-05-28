@@ -7,5 +7,8 @@ object Tut1 {
     var b = 2
     b = 5
 
+    // val a = 10 <--- this is not allowed
+    // a = 10 <--- this is not allowed
+
   }
 }
