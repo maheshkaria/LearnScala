@@ -10,7 +10,10 @@ object Tut5 {
     }
 
 
-
+    x = 0
+    do {
+      println(s"runnn")
+    } while (x < -1)
 
 
   }
