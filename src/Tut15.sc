@@ -17,8 +17,8 @@ val t = new Tut15
 println(t.times())
 
 
-// following parameterized constructor example
-class Tut15ConstructorExample(name: String) {
+// following parameterized constructor example and name is parametric field or val
+class Tut15ConstructorExample(val name: String) {
 
   def sayHello(): Unit = {
     println(this.name)
@@ -31,3 +31,5 @@ class Tut15ConstructorExample(name: String) {
 val t = new Tut15ConstructorExample("mahesh")
 
 t.sayHello()
+
+print(t.name)
