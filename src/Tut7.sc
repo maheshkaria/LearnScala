@@ -23,4 +23,4 @@ println(c)
 println(d)
 println(e)
 
-// tuple has limitation of holding 22 items only
+// tuple has limitation of holding 22 items only and they are immutable
