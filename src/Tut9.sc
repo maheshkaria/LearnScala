@@ -11,3 +11,4 @@ println(array2.size)
 // List is immutable
 val list1: List[String] = List("String1", "String2", "String3")
 println(list1.size)
+
