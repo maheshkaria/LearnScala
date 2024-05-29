@@ -12,3 +12,8 @@ println(array2.size)
 val list1: List[String] = List("String1", "String2", "String3")
 println(list1.size)
 
+def lengthOfList(xs: List[Any]): Int = {
+  xs.size
+}
+
+print(lengthOfList(list1))
