@@ -6,3 +6,9 @@ def max(x: Int, y: Int): Int = if (x > y) x else y
 def max2(x: Int, y: Int) = if (x > y) x else y
 
 // for params its mandatory to have type
+
+
+// Unit return type is equivalent to void in java that it doesnt return anything
+def sayHello(name: String): Unit = {
+  println("Hello World")
+}
