@@ -26,4 +26,12 @@ print(Nil.::(1)) // this will create new list and add 1 in it
 
 print(Nil.::(1).::(2)) // this will create new list and add 2 and 1 in it
 
+// we can concat 2 list as shown
+
+val x1 = List(1,2,3)
+val x2 = List(4,5,6)
+
+print(x1 ::: x2)
+
+
 
