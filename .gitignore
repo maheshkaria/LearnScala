@@ -4,3 +4,5 @@
 /.idea/modules.xml
 /.idea/codeStyles/Project.xml
 /.idea/vcs.xml
+/target/
+/null/
