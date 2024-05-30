@@ -1,6 +1,6 @@
 // preconditions in scala
 // It basically checks if inputs are correct, if they aren't correct we get illegal argument exception
-
+// they raise exception during object creation itself
 class Rational(val a: Int, val d: Int) {
   require(d > 0, "reason for fail")
 
