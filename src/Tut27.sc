@@ -1,5 +1,6 @@
 import scala.annotation.tailrec
 // while loop always returns Unit
+// we also have do while where body of do is executed at least once
 
 var x = 0
 while (x < 5) {
