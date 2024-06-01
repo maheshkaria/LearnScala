@@ -14,3 +14,11 @@ print("hello") // statement with return type Unit
 
 // Alternative to returning unit
 // if we want to have fluent API we can return this instead of Unit
+
+// if expression in Scala
+// In scala we dont have ternary operator like Java
+// In Scala if is expression i.e. it can return value
+
+val x = if (1 > 0) 1 else 0 // it will return and assign val 1 to x
+
+
