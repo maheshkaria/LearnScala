@@ -11,3 +11,6 @@ print("hello") // statement with return type Unit
 // i.e. method mostly be doing IO operation or setting up or updating variable
 // Unit is sometimes referred as empty tuple ()
 // Unit is descended from AnyVal like other primitives
+
+// Alternative to returning unit
+// if we want to have fluent API we can return this instead of Unit
