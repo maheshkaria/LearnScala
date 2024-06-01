@@ -1,3 +1,5 @@
+import language.implicitConversions // when we use implicit keyword we need to import this to avoid warnings
+
 // implicit conversion
 
 object Rational {
