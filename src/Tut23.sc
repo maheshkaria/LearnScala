@@ -13,7 +13,7 @@ object Rational {
 }
 
 
-class Rational private (val n: Int, val d: Int) {
+class Rational private (val n: Int, val d: Int) { // private keyword makes this constructor private so only companion object can access it now
 
   override def toString: String = s"R($n/$d)"
 
