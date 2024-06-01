@@ -21,4 +21,16 @@ print("hello") // statement with return type Unit
 
 val x = if (1 > 0) 1 else 0 // it will return and assign val 1 to x
 
+// try... catch ...finally... too are expression in scala
 
+val args = Array.empty[String]
+
+val fileName1 =
+  try {
+    args.head // throws exception as array is empty
+  } catch {
+    case _: NoSuchElementException => "localfile.txt"
+  } finally {
+    println("finally block")
+    "result" // even though finally block is expression to but its returned value is never used
+  }
