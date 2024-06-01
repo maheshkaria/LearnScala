@@ -19,8 +19,10 @@ class Rational private (val n: Int, val d: Int) { // private keyword makes this 
   def +(other: Rational): Rational =
     new Rational(n * other.d + d * other.n, d * other.d)
 
-  def +(i: Int): Rational =
-    this + Rational(i)
+
+  // we don't need overloaded following method if we have implicit factory method in place
+//  def +(i: Int): Rational =
+//    this + Rational(i)
 
 }
 // when we make class private we can't create object of class Rational directly we are forced to use companion object
