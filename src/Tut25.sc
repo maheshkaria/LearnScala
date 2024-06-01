@@ -29,4 +29,4 @@ val sum = Rational(5) + 5
 
 print(sum)
 
-val sum = 5 + Rational(5) // this is allowed because in companion object factory method method apply is implicit (in earlier example it will give error) .. implicit keyword implicitly converts input if factory method is implict
+val sum = 5 + Rational(5) // this is allowed because in companion object factory method method apply is implicit (in earlier example it will give error) .. implicit keyword implicitly converts input if factory method is implicit
