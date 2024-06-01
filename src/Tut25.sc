@@ -2,6 +2,10 @@ import language.implicitConversions // when we use implicit keyword we need to i
 
 // implicit conversion
 
+// implicit used by scala to solve type problems
+// we can have implicit val/object/class/companion
+// it is mandatory use implicit keyword to make it available
+
 object Rational {
   def apply(n: Int, d: Int): Rational = new Rational(n, d)
   implicit def apply(i: Int): Rational = new Rational(i, 1)
