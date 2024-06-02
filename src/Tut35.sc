@@ -9,3 +9,9 @@ val mulFunLambda = (a: Int, b: Int) => a * b // example of literal function or l
 
 print(mulFunLambda(5,6))
 
+// where to use anonymous functions ?
+// while using data filter methods instead of creating a method we can have anonymous function
+
+val nums = 1 to 10
+print(nums.filter(i => i % 2 == 0))
+print(nums.map(i => i * 3))
