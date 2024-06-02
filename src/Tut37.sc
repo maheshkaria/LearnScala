@@ -14,3 +14,22 @@ print(nums.span(x => x % 5 != 0))
 
 // divides given sequence into two parts left list contains matching condition elements and right contains list of non-matching elements
 print(nums.partition(x => x % 2 == 0))
+
+// sliding function returns window of given size from given sequence
+// nums.sliding(3) foreach println
+
+// how to create HOF ?
+//
+
+val xs = (1 to 10).toList
+def compareNeighbors(xs: List[Int], compare: (Int, Int) => Int): List[Int] = {
+  for (pair <- xs.sliding(2)) yield {
+    compare(pair(0), pair(1))
+  }
+}.toList
+
+
+print(compareNeighbors(xs, (a, b) => a + b))
+
+print(compareNeighbors(xs, (a, b) => (a - b).abs))
+
