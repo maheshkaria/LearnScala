@@ -1,5 +1,5 @@
 // partial application of function
-// basically it means partially apply a function and then apply remaining function later
+// basically it means partially apply a function without all params and then apply remaining function later with remaining params
 
 val add3Nums = (a: Int, b: Int, c: Int) => c + b + a
 
