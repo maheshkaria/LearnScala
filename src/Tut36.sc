@@ -12,4 +12,4 @@ print(fn1curried(2)(3))
 val fn1tupled = fn1.tupled
 val tup = (2, 3)
 
-fn1tupled(tup)
+print(fn1tupled(tup))
