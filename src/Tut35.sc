@@ -15,3 +15,6 @@ print(mulFunLambda(5,6))
 val nums = 1 to 10
 print(nums.filter(i => i % 2 == 0))
 print(nums.map(i => i * 3))
+
+// how function literals work ?
+// behind the scenes it uses lambda of Java
