@@ -8,6 +8,7 @@ print(mulFunction(5, 6))
 val mulFunLambda = (a: Int, b: Int) => a * b // example of literal function or lambda
 
 print(mulFunLambda(5,6))
+print(mulFunLambda.apply(5,6))
 
 // where to use anonymous functions ?
 // while using data filter methods instead of creating a method we can have anonymous function
@@ -18,3 +19,4 @@ print(nums.map(i => i * 3))
 
 // how function literals work ?
 // behind the scenes it uses lambda of Java
+
