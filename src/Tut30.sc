@@ -35,6 +35,8 @@ def matchIt(x: Any): String = x match {
   case Nil => "empty list"
   case 5 => "number 5"
   case _: List[_] => "some kind of list, not 1 not empty"
+  case _=> "something bad"
+
 }
 
 
