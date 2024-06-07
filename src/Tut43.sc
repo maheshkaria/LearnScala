@@ -20,4 +20,4 @@ sayHello("A", "B", "c")
 val names = List("D", "E", "F")
 
 // we can pass list of names as shown below while passing value to variable argument
-sayHello(names: _*) // _* will unpack list and pass as param
+sayHello(names: _*) // _* will expand and pass as param and _* is called as expansion operator
