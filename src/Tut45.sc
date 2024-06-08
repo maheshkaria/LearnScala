@@ -32,6 +32,7 @@ emphasizeFileContents(my_file)
 
 // if you see in above examples there is no code re-use.. we are reading and validating after reading from a file
 // apart from condition and return type most of the code is identical in both the functions
+// in such cases we can use generics and HoFs shown in next example
 
 
 
