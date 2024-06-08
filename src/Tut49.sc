@@ -17,3 +17,4 @@ fruitLoop(y < 5) {
 }
 
 // by-name functions are discouraged and function0 are encouraged over it
+// by-name functions are those functions which we can invoke just by name without explicit brackets around it like this ()
