@@ -15,3 +15,5 @@ fruitLoop(y < 5) {
   println(y*y)
   y += 1
 }
+
+// by-name functions are discouraged and function0 are encouraged over it
